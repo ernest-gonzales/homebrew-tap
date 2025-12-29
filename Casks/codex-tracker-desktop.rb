@@ -1,7 +1,5 @@
-cask "codex-tracker" do
+cask "codex-tracker-desktop" do
   version "0.3.0"
-
-  deprecate! date: "2025-12-29", because: "it has been renamed to codex-tracker-desktop", replacement_cask: "codex-tracker-desktop"
 
   on_arm do
     sha256 "9a0191756ed843a32fc07820d022659ccce6664aef04d70c03a9826a82509141"
